@@ -10,7 +10,6 @@
 
 */
 
-
 @keyframes scale {
   from {
     transform: scale(1);
@@ -23,11 +22,10 @@
 
 @keyframes sparks {
   from {
-   opacity: 0;
+    opacity: 0;
   }
 
   to {
     opacity: 1;
   }
 }
-

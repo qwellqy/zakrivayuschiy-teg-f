@@ -1,22 +1,26 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --main-font-family: 'Inter-Variable';
-    --accent-font: 'PressStart2P';
-    --main-font-size: 18px;
-    --regular-font-weight: 410;
-    --bold-font-weight: 715;
-    --page-background:
-    repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px),
+  --main-font-family: "Inter-Variable";
+  --accent-font: "PressStart2P";
+  --main-font-size: 18px;
+  --regular-font-weight: 410;
+  --bold-font-weight: 715;
+  --page-background: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a 100%);
-    --content-width: clamp(375px, calc(282.143px + 29.018vw), 700px);
-    --logo-font-size: clamp(3.0625rem, 2.8625rem + 1vw, 4.0625rem);;
-    --header-spacing: clamp(122px, calc(119.183px + 0.751vw), 130px) clamp(16px, calc(-21.324px + 9.953vw), 122px);
-    --heading-font-size: clamp(0.875rem, 0.7625rem + 0.5625vw, 1.4375rem);
-    --text-border-color: #fff;
-    --button-text-color: #FFF;
-    --main-accent: #000;
-    --heart-outline: #000;
-    --heart-fill: #FF0000;
-    --background-color: #FFF;
+  --content-width: clamp(375px, calc(282.143px + 29.018vw), 700px);
+  --logo-font-size: clamp(3.0625rem, 2.8625rem + 1vw, 4.0625rem);
+  --header-spacing: clamp(122px, calc(119.183px + 0.751vw), 130px)
+    clamp(16px, calc(-21.324px + 9.953vw), 122px);
+  --heading-font-size: clamp(0.875rem, 0.7625rem + 0.5625vw, 1.4375rem);
+  --text-border-color: #fff;
+  --button-text-color: #fff;
+  --main-accent: #000;
+  --heart-outline: #000;
+  --heart-fill: #ff0000;
+  --background-color: #fff;
 }
