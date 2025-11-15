@@ -23,4 +23,7 @@
   --heart-outline: #000;
   --heart-fill: #ff0000;
   --background-color: #fff;
+  --dialog__font-size: 14px;
+  --button__font-size: 14px;
+  --caption__font-size: 14px;
 }
