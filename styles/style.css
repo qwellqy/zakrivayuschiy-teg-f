@@ -43,29 +43,29 @@
   display: grid;
   gap: 20px;
   margin-block-start: 100px;
-  margin-block-end: 50px;
+  margin-block-end: 100px;
   padding: var(--header-spacing);
 }
 
 .header__item {
   justify-self: center;
   font-family: var(--accent-font);
-  font-size: var(logo-font-size);
   text-transform: uppercase;
 }
 
 .logotype {
+  font-weight: 400;
   font-size: var(--logo-font-size);
 }
 
 .header__title {
+  font-weight: 400;
   font-size: var(--heading-font-size);
 }
 
 .post__title {
-  margin-inline: 10px;
-  margin-block-start: 4px;
-  margin-block-end: 4px;
+  padding: 10px;
+  padding-block: 4px;
   font-size: var(--main-font-size);
   font-variation-settings: "wght" var(--bold-font-weight);
 }
@@ -100,7 +100,7 @@
   object-fit: cover;
   object-position: center;
   inline-size: 100%;
-  block-size: auto;
+  block-size: clamp(371px, calc(256.563px + 30.516vw), 696px);
 }
 
 .filter-dramatic {
@@ -209,8 +209,8 @@
 
 .floppy {
   display: block;
-  width: 21px;
-  height: 21px;
+  width: 28px;
+  height: 28px;
   filter: brightness(0) invert(1);
   mix-blend-mode: difference;
 }
@@ -264,7 +264,8 @@ button:focus {
 }
 
 .save-floppy {
-  width: 100%;
+  width: 39px;
+  height: 39px;
 }
 
 .button-agreement {
